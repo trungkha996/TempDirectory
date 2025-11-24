@@ -14,7 +14,7 @@ var trailData = {
     "length": 15,
     "eGain": 1286,
     "intensity": "moderate",
-    "infoLink": "https://www.alltrails.com/trail/us/texas/cross-timbers-hiking-trail",
+    "infoLink": "",
     "comments": ""
   },
   {

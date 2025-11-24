@@ -5,6 +5,16 @@
 <title>Trail Directory</title>
 <style>
 body { font-family: sans-serif; margin: 20px; background: #f7f7f7; }
+.trail-card h2 {
+    color: #111827;              /* default dark color */
+    transition: color 0.2s ease; /* smooth change */
+  }
+
+  /* When you hover only the title */
+  .trail-card h2:hover {
+    color: #2563eb;              /* blue on hover */
+    cursor: pointer;
+  }
 h1 { text-align: center; margin-bottom: 20px; }
 #map { height: 500px; margin-bottom: 20px; border: 1px solid #ccc; border-radius: 10px; }
 .trail-card { background: white; border-radius: 10px; padding: 15px; margin-bottom: 10px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
